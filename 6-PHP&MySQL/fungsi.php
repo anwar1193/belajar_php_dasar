@@ -1,6 +1,6 @@
 <?php  
 
-	$koneksi = mysqli_connect('localhost', 'root', '', 'dbs_query') or die (mysqli_error($koneksi));
+	$koneksi = mysqli_connect('localhost', 'root', 'Profi@123', 'dbs_query') or die (mysqli_error($koneksi));
 
 	function tampil_barang($query){
 		global $koneksi; // wajib di jadikan global supaya $koneksi bisa terbaca di dalam function

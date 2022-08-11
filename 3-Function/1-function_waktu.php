@@ -32,6 +32,12 @@
 
 	echo "2d. tampilkan 20 hari yang lalu dari hari ini, hari dan tanggal berapa : ".date('l, d-m-Y', time() - 60*60*24*20);
 
+	echo "<br>";
+
+	$tanggal = '2022-04-01';
+
+	echo "2e. tampilkan 2 hari setelah tanggal yang ada di variable, dimana variable tanggal = 2022-04-01, maka 2 hari setelahnya adalah tanggal ".date('Y-m-d', strtotime($tanggal) + 60*60*24*2);
+
 
 	echo "<br><br>";
 
